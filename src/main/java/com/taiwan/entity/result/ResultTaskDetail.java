@@ -10,4 +10,6 @@ public class ResultTaskDetail {
     private String taskText;
     private ResultTaskAward award;
     private List<ResultCond> taskInfo;
+    private Integer taskFinishType;
+    private List<Integer> condIds;
 }

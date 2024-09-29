@@ -232,5 +232,13 @@ public class Task {
      * 挂机场景
      */
     private String onHookScenario;
+    /**
+     * 需求数值类型
+     */
+    private Integer attributeType;
+    /**
+     * 需求数值
+     */
+    private Integer attributeValue;
 
 }

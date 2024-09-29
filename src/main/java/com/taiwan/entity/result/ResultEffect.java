@@ -64,4 +64,5 @@ public class ResultEffect {
      * 触发的攻击特效
      */
     private String effectType;
+    private int[] effectTypeList;
 }

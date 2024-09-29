@@ -17,7 +17,7 @@ public class Mission {
      */
     private Integer sortID;
     /**
-     * 任务类别 TT_DIALY:0:每日 TT_MAIN:1:主线 TT_BRANCH:2:支线 TT_ACHIEVEMENT:3:成就 TT_SYSTEM:4:系统 TT_ACTIVITY:5:活动 TT_EXTENTION:6:外传 TT_CHANGEJOB:7:转职 TT_AWAKEN:8:觉醒 TT_CYCLE:9:循环任务 TT_RED_PACKET:10:红包任务 TT_TITLE:11:称号任务 TT_LEGEND:12:传奇之路 TASK_MASTER_DAILY :13:师门日常任务 TASK_MASTER_ACADEMIC:14:师门学业成长任务 TASK_ACCOUNT_ACHIEVEMENT:15:账号成就 TASK_ADVENTURE_TEAM_ACCOUNT_WEEKLY:16:佣兵团账号每周任务
+     * 任务类别 TT_DIALY:0:每日 TT_MAIN:1:主线 TT_BRANCH:2:支线 TT_ACHIEVEMENT:3:成就 TT_SYSTEM:4:系统 TT_ACTIVITY:5:活动 TT_EXTENTION:6:外传 TT_CHANGEJOB:7:转职 TT_AWAKEN:8:觉醒 TT_CYCLE:9:循环任务 TT_RED_PACKET:10:红包任务 TT_TITLE:11:称号任务 TT_LEGEND:12:传奇之路 TASK_MASTER_DAILY :13:师门日常任务 TASK_MASTER_ACADEMIC:14:师门学业成长任务 TASK_ACCOUNT_ACHIEVEMENT:15:账号成就 TASK_ADVENTURE_TEAM_ACCOUNT_WEEKLY:16:佣兵团账号每周任务 ATTRIBUTE_GROWTH:17:属性成长任务
      */
     private Integer taskType;
     /**
@@ -93,7 +93,7 @@ public class Mission {
      */
     private Integer jobID;
     /**
-     * 任务完成条件 TFT_KILL:0:杀怪 TFT_PASS:1:通关地下城 TFT_COLLECT:2:收集 TFT_TALK:3:对话 TFT_KILL_BY_TYPE:4:杀某种类型 TFT_FINISHMISSION_TYPE:5:完成其他任务 TFT_ACCESS_SHOP:6:访问商店 TFT_SUBMIT_ITEM:7:提交物品                                                TFT_LINKS:8:链接                                         TFT_ONHOOK:9:挂机
+     * 任务完成条件 TFT_KILL:0:杀怪 TFT_PASS:1:通关地下城 TFT_COLLECT:2:收集 TFT_TALK:3:对话 TFT_KILL_BY_TYPE:4:杀某种类型 TFT_FINISHMISSION_TYPE:5:完成其他任务 TFT_ACCESS_SHOP:6:访问商店 TFT_SUBMIT_ITEM:7:提交物品                                                TFT_LINKS:8:链接                                         TFT_ONHOOK:9:挂机 TFT_ATTRIBUTEARRIVAL:10:属性达标
      */
     private Integer taskFinishType;
     /**
@@ -220,5 +220,13 @@ public class Mission {
      * 挂机场景
      */
     private String onHookScenario;
+    /**
+     * 需求数值类型
+     */
+    private Integer attributeType;
+    /**
+     * 需求数值
+     */
+    private Integer attributeValue;
 
 }
