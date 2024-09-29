@@ -60,4 +60,8 @@ public class ResultEffect {
      * 僵直值
      */
     private String hardValue;
+    /**
+     * 触发的攻击特效
+     */
+    private String effectType;
 }
